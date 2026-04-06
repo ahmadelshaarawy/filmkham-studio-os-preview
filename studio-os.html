@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Film Kham — Studio OS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="studio-os.css">
+<link rel="stylesheet" href="studio-os-extra.css">
+</head>
+<body>
+
+<nav class="proto-nav">
+  <div class="proto-nav-inner">
+    <div class="proto-brand">
+      <div class="proto-brand-dot"></div>
+      <span>Film Kham · Studio OS — Concept v2</span>
+    </div>
+    <div class="proto-tabs" id="tabs">
+      <button class="proto-tab active" data-screen="vision">Vision</button>
+      <button class="proto-tab" data-screen="home">Command Center</button>
+      <button class="proto-tab" data-screen="project">Project Hub</button>
+      <button class="proto-tab" data-screen="threads">Threads</button>
+      <button class="proto-tab" data-screen="tasks">Tasks</button>
+      <button class="proto-tab" data-screen="pipeline">Pipeline</button>
+      <button class="proto-tab" data-screen="archive">Archive</button>
+      <button class="proto-tab" data-screen="devices">iPad + iPhone</button>
+    </div>
+  </div>
+</nav>
+
+<div class="stage" id="stage"><!-- screens injected below --></div>
+
+<script src="studio-os.js"></script>
+</body>
+</html>
